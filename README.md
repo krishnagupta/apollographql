@@ -1,8 +1,11 @@
-npm install apollo-boost @apollo/react-hooks graphql
+yarn add apollo-boost @apollo/react-hooks graphql
 
 apollo-boost: Package containing everything you need to set up Apollo Client
 @apollo/react-hooks: React hooks based view layer integration
 graphql: Also parses your GraphQL queries
+
+yarn add apollo-client apollo-cache-inmemory apollo-link-http apollo-link-error apollo-link graphql-tag
+
 
 ```
 import React from 'react';
